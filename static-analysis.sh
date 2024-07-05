@@ -1,5 +1,7 @@
 #/bin/bash
 
+export CLANGD_FLAGS="-I/usr/include/c++/11"
+
 CLANG_TIDY="clang-tidy"
 SCRIPT_DIR="$(dirname $0)"
 
