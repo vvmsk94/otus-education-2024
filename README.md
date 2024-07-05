@@ -1,11 +1,9 @@
 
-# Build
-```
-cmake -B build
-cmake --build build
+#Build
+``` cmake -
+    B build cmake-- build build
 ```
 
-# Test
-```
-ctest --test-dir build
+#Test
+``` ctest-- test - dir build
 ```

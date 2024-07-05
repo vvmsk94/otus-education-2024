@@ -1,5 +1,8 @@
-#include <iostream>
+#include "IpFilter.h"
 
-#include "hello.h"
+int main() {
+  IP_Filter filter;
+  filter.survey();
 
-int main() { hello::greetings(std::cout); }
+  return 0;
+}
